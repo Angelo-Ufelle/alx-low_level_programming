@@ -11,9 +11,10 @@
 			putchar(c);
 			c++;
 		}
-	whil
-		(d <= 'z') {                                              putchar(c);
-                        c++;
+	while
+		(d <= 'Z') {
+                        putchar(d);                                              putchar(c);
+                        d++;
                 }
         putchar('\n');
         return (0);
