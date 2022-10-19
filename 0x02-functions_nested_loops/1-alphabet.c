@@ -2,8 +2,6 @@
 
 /**
  * print_alphabet - entry point
- *
- * Return: 0 success
  */
 
 void print_alphabet(void)
@@ -13,6 +11,4 @@ void print_alphabet(void)
 	for (la = 'a'; la <= 'z'; la++)
 		_putchar(la);
 	_putchar('\n');
-
-	return (0);
 }
